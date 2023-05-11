@@ -1,0 +1,83 @@
+
+###
+
+POST http://localhost:3001/api/user
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDVhMzgzODlhZmMwZTgzNjllMmZmMWQiLCJuYW1lIjoiQW5tb2wiLCJlbWFpbCI6ImFubW9sQGdtYWlsLmNvbSIsImlhdCI6MTY4MzYzNDM2OCwiZXhwIjoxNjgzNzIwNzY4fQ.a23HXbxmkMAneQXtkc2l8kVplDfhySkJdsvmZP41UmU
+
+{
+    "email":"anmol@gmail.com"
+    
+
+}
+###
+
+POST https://pdhuntall1-production-8015.up.railway.app/api/user
+content-type: application/json
+
+{
+    "name": "DB2111",
+    "email":"db1112@gmail.com",
+    "password": "123456"
+
+}
+
+
+
+
+###
+POST http://localhost:3001/api/auth/signup
+content-type: application/json
+
+{
+    "name": "Ashwani",
+    "email":"ashwani@gmail.com",
+    "password": "111111"
+
+}
+
+
+###
+POST http://localhost:3001/api/auth/login
+content-type: application/json
+
+{
+    
+    "email":"ashwani@gmail.com",
+    "password": "111111"
+
+}
+
+
+###
+POST http://localhost:3001/api/auth/logout
+content-type: application/json
+Authorization: Bearer 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDVjODg2YmMxYmNmNzIxMWZmMzhlYjUiLCJuYW1lIjoiQXNod2FuaSIsImVtYWlsIjoiYXNod2FuaUBnbWFpbC5jb20iLCJpYXQiOjE2ODM3ODU5MTcsImV4cCI6MTY4Mzg3MjMxN30.5ZRs_aTelzs_pg8GNH1sFhqiSxVMOzR8Cq3uj4666Tc
+
+
+
+
+// Tags
+###
+POST http://localhost:3001/api/tag
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDVjODg2YmMxYmNmNzIxMWZmMzhlYjUiLCJuYW1lIjoiQXNod2FuaSIsImVtYWlsIjoiYXNod2FuaUBnbWFpbC5jb20iLCJpYXQiOjE2ODM3ODU5MTcsImV4cCI6MTY4Mzg3MjMxN30.5ZRs_aTelzs_pg8GNH1sFhqiSxVMOzR8Cq3uj4666Tc
+
+{
+    "name":"Artificial Intelligence"
+    
+
+}
+
+###
+GET http://localhost:3001/api/tag
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDVjODg2YmMxYmNmNzIxMWZmMzhlYjUiLCJuYW1lIjoiQXNod2FuaSIsImVtYWlsIjoiYXNod2FuaUBnbWFpbC5jb20iLCJpYXQiOjE2ODM3ODU5MTcsImV4cCI6MTY4Mzg3MjMxN30.5ZRs_aTelzs_pg8GNH1sFhqiSxVMOzR8Cq3uj4666Tc
+
+
+
+###
+GET http://localhost:3001/api/tag/645c88d2c1bcf7211ff38ebc
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDVjODg2YmMxYmNmNzIxMWZmMzhlYjUiLCJuYW1lIjoiQXNod2FuaSIsImVtYWlsIjoiYXNod2FuaUBnbWFpbC5jb20iLCJpYXQiOjE2ODM3ODU5MTcsImV4cCI6MTY4Mzg3MjMxN30.5ZRs_aTelzs_pg8GNH1sFhqiSxVMOzR8Cq3uj4666Tc
